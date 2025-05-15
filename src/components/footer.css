@@ -1,0 +1,156 @@
+.footer-container {
+  width: 100%;
+  padding: 50px 120px;
+  background: var(--dark-blue);
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-half {
+  width: 52%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-media>div {
+  display: flex;
+  margin-top: 30px;
+}
+
+.logo-media>div>img {
+  margin: 0 7px;
+  cursor: pointer;
+}
+
+.logo-media>div>img:hover {
+  fill: var(--lime-green);
+  transition: 0.2s;
+}
+
+.logo-media>span {
+  position: relative;
+}
+
+.easy {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--white);
+  position: absolute;
+  left: 30px;
+  bottom: 1px;
+}
+
+.left-half>ul {
+  font-size: 14px;
+  color: var(--white);
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.left-half>ul>li {
+  cursor: pointer;
+}
+
+.left-half>ul>li:hover {
+  color: var(--lime-green);
+  transition: 0.2s;
+}
+
+.credits {
+  text-align: right;
+}
+
+.credits>button {
+  margin-bottom: 20px;
+}
+
+.credits>p {
+  font-size: 14px;
+  color: var(--grayish-blue);
+}
+
+@media (max-width: 1025px) and (min-width: 820px) {
+  .footer-container {
+    width: 100%;
+    padding: 50px 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 819px) and (min-width: 375px) {
+  .footer-container {
+    width: 100%;
+    padding: 50px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .left-half {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-ul {
+    margin-top: 30px;
+  }
+
+  .logo-media>div {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .footer-logo {
+    position: relative;
+    left: 25px;
+  }
+
+  .logo-media>div>img {
+    margin: 0 10px;
+    cursor: pointer;
+  }
+
+  .logo-media>div>img:hover {
+    fill: var(--lime-green);
+    transition: 0.2s;
+  }
+
+  .logo-media>span {
+    position: relative;
+  }
+
+  .easy {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--white);
+    position: absolute;
+    left: 30px;
+    bottom: 1px;
+  }
+
+  .left-half>ul {
+    font-size: 14px;
+    color: var(--white);
+    font-weight: 300;
+    line-height: 35px;
+    text-align: center;
+  }
+
+  .credits {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .credits>button {
+    margin-bottom: 20px;
+  }
+
+  .credits>p {
+    font-size: 14px;
+  }
+}

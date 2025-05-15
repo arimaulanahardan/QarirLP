@@ -1,0 +1,77 @@
+.details {
+  padding: 5rem 0;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.details-content {
+  max-width: 100%;
+  padding: 0 5rem;
+  margin: 0 auto;
+  position: relative;
+}
+
+.details-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #0d1c2e; /* Warna gelap */
+  margin-bottom: 30px;
+}
+
+.details-info {
+  font-size: 1rem;
+  color: #1d1d1d;
+  line-height: 1.8;
+  font-weight: 400;
+  padding: 0 30px;
+  position: relative;
+}
+
+.details-info strong {
+  font-weight: 700;
+}
+
+.details-petik {
+  position: absolute;
+  width: 30px;
+  height: auto;
+  margin: 0 5rem;
+}
+
+.details-petik:first-of-type {
+  top: -10px;
+  left: 0;
+  transform: rotate(0deg);
+}
+
+.details-petik:last-of-type {
+  bottom: -10px;
+  right: 0;
+  transform: rotate(180deg); /* memutar petik akhir */
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .details-title {
+    font-size: 2rem;
+  }
+
+  .details-content {
+    padding: 0 2rem;
+  }
+  
+
+  .details-info {
+    font-size: 0.8rem;
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+  .details-petik {
+    width: 24px;
+  }
+
+  .details-petik {
+    margin: 0 2rem;
+  }
+}
