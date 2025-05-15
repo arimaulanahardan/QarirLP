@@ -1,3 +1,4 @@
+// import "./expand.css";
 import "./expand.css";
 
 import { useState, useEffect } from "react";
@@ -47,7 +48,6 @@ const Expand = () => {
           </div>
         ))}
       </div>
-
     </section>
   );
 };
