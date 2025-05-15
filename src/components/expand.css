@@ -20,21 +20,6 @@
     margin-top: 8px;
   }
   
-  /* .expand-card {
-    min-width: 250px;
-    max-width: 250px;
-    height: 200px;
-    flex-shrink: 0;
-    background-color: #fff;
-    border-radius: 16px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    text-align: center;
-  } */
   
   .expand-card:hover {
     transform: translateY(-4px);
@@ -60,25 +45,6 @@
     margin-top: 10px;
   }
   
-
-  /* .expand-scroll-wrapper {
-    display: flex;
-    gap: 20px;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-    padding-bottom: 10px;
-    justify-content: center;
-  }
-  
-  .expand-scroll-wrapper::-webkit-scrollbar {
-    display: none; 
-  } */
-  
-  /* .expand-card {
-    min-width: 250px;
-    flex-shrink: 0;
-  } */
-
   .expand-scroll-wrapper {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -87,8 +53,7 @@
   }
   
   .gradient-border {
-    background: linear-gradient(135deg, #f0a605, #db701a); /* you can adjust colors */
-    padding: 2px;
+    background: linear-gradient(135deg, #f0a605, #db701a); 
     border-radius: 16px;
     transition: transform 0.3s ease;
   }
@@ -98,17 +63,11 @@
   }
   
   .expand-card {
-    background-color: var(--white); /* dark background or use var(--dark-blue) */
+    background-color: var(--white); 
     padding: 24px 20px;
     border-radius: 14px;
     height: 100%;
     text-align: center;
     color: white;
   }
-  
-  /* .expand-icon {
-    width: 50px;
-    margin-bottom: 16px;
-  }
-   */
   

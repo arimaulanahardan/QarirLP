@@ -1,4 +1,4 @@
-import "./Expand.css";
+import "./expand.css";
 
 import { useState, useEffect } from "react";
 import Company from "../images/icon-expand (1).svg";
@@ -32,19 +32,6 @@ const Expand = () => {
         <p>Educate the user on the advantages of doing business in UAE</p>
       </div>
 
-      {/* <div className="expand-scroll-wrapper">
-        {ExpandsData.map((item, index) => (
-          <div className="expand-card" key={index}>
-            <img src={item.icon} alt="icon" className="expand-icon" />
-            <h3>
-              {item.prefix}
-              {counts[index].toLocaleString()}
-              {item.suffix}
-            </h3>
-            <p>{item.description}</p>
-          </div>
-        ))}
-      </div> */}
       <div className="expand-scroll-wrapper">
         {ExpandsData.map((item, index) => (
           <div className="gradient-border" key={index}>
@@ -60,7 +47,7 @@ const Expand = () => {
           </div>
         ))}
       </div>
-      
+
     </section>
   );
 };
